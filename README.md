@@ -1,21 +1,16 @@
 
-# Utiliza está plantilla y crea tus proyectos 
+# Proyecto donde aplica el diseño holy-grail
 
-  ## sigue las siguientes instruciones
-   ### Clona el proyecto a tu pc o laptop
+  ## clonar el proyecto
+    `git clone https://github.com/Avimael95/Holy-grail.git` 
+  
+  ## Reconstruir el proyecto
 
-      git clone https://github.com/Avimael95/Webpack-plantilla.git
+    `npm install`
+  
+  ## Ejecutar el servidor
 
-   ### Resconstruye el proyecto
+    `npm start`
+  
+  ## Felicidades!! Ya tienes el proyecto :D
 
-      npm install
-
-   ### Ahora ejecuta el siguiente comando
-
-      npm run build
-
-   ### O el comando para desarrollo
-
-      npm start
-
-   ### listo!! ya tienes tu entorno de trabajo
