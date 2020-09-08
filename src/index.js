@@ -9,7 +9,9 @@ import '@fortawesome/fontawesome-free/js/brands'
 import './static/Logo.png';
 import './static/imagen1.jpg';
 import './static/imagen2.jpg';
-import './static/articulo2.jpg'
+import './static/articulo2.jpg';
+import './static/usuario.jpg';
+import './static/usuario2.jpg';
 
 
 

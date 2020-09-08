@@ -36,6 +36,7 @@ module.exports ={
     },
     plugins:[
         new HtmlWebpackPlugin({
+            filename:'index.html',
             template:'./src/index.template.html',
             //===Por si por defecto no lo minifica
             // minify:{

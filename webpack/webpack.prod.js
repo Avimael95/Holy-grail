@@ -75,6 +75,7 @@ module.exports ={
             //     useShortDoctype: true
             // }
         }),
+      
         new MiniCssExtractPlugin({
             filename:'css/main.[contenthash].css'
         }),
