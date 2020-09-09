@@ -12,6 +12,7 @@ import './static/imagen2.jpg';
 import './static/articulo2.jpg';
 import './static/usuario.jpg';
 import './static/usuario2.jpg';
+import './static/favicon.png';
 
 
 

@@ -2,6 +2,7 @@ const Path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin= require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const FaviconsWebpackPlugin=require('favicons-webpack-plugin');
 module.exports ={
     mode:'production',
     output:{
@@ -80,6 +81,13 @@ module.exports ={
             filename:'css/main.[contenthash].css'
         }),
         new CleanWebpackPlugin(),
+        new FaviconsWebpackPlugin({
+            // Your source logo (required)
+            logo: './src/static/favicon.png',
+            cache: true,
+            prefix:'../static/',
+            inject: true,
+          })
     ]
         
 }; 
