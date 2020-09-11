@@ -9,3 +9,9 @@
         @content;
     }
 }
+
+@mixin  movil {
+    @media only screen and(min-width:#{$movil}) {
+        @content;
+    }
+}
