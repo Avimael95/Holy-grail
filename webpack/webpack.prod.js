@@ -85,7 +85,8 @@ module.exports ={
             // Your source logo (required)
             logo: './src/static/favicon.png',
             cache: true,
-            prefix:'./static/',
+            publicPath:'static/',
+            outputPath:'static/assets',
             inject: true,
           })
     ]
