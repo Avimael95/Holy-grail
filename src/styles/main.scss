@@ -9,6 +9,9 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 header{
@@ -36,7 +39,7 @@ header{
     }
 
     .menu-movil{
-        width: 60px;
+        width: 40px;
         float: right;
         display: block;
         text-align: right;
@@ -45,8 +48,8 @@ header{
     }
     
     .menu-movil span{
-        height: 8px;
-        margin-bottom: 6px;
+        height: 5px;
+        margin-bottom: 3px;
         background-color: $blanco;
         display: block;
     }
@@ -104,6 +107,7 @@ header{
 
 /*Estilos del main principal*/
 .main{
+    flex: 1;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -219,17 +223,6 @@ header{
     }
 }
 
-.footer{
-    background-color: $footer;
-    padding: 1rem;
-
-    p{
-        color: #000000;
-        font-size: 1.4rem;
-        font-weight: 400;
-        text-align: center;
-    }
-}
 
 /*Estilos para la seccion de los commentarios*/
 h2{
@@ -287,4 +280,15 @@ h2{
     }
 
    
+}
+
+.footer{
+    background-color: $footer;
+    padding: 1rem;
+    p{
+        color: #000000;
+        font-size: 1.4rem;
+        font-weight: 400;
+        text-align: center;
+    }
 }
